@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:1-76:12
+	package
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:24:5-26
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:26:5-30
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:23:11-69
+	android:versionCode
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:25:5-28
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:28:5-71:19
+	android:label
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:29:9-38
+uses-library#com.motorola.app.admin
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:31:9-63
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:31:23-60
+activity#com.mot.dev.DMActivity
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:34:13-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:39:27-74
+receiver#com.mot.dev.DeviceManagementReceiver
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:43:9-56:20
+	android:label
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:46:13-56
+	android:permission
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:47:13-70
+	android:description
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:45:13-74
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:44:13-53
+meta-data#android.app.device_admin
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:48:13-51:25
+	android:resource
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:50:17-53
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:49:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:53:13-55:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:54:25-79
+receiver#com.mot.dev.ResultReceiver
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:57:9-63:20
+	android:permission
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:59:13-70
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:58:13-43
+intent-filter#action:name:mot.app.admin.edm.ERROR_STATUS
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:60:13-62:29
+action#mot.app.admin.edm.ERROR_STATUS
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:61:17-73
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:61:25-70
+receiver#com.mot.dev.SyncIdReceiver
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:64:9-70:20
+	android:permission
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:66:13-70
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:65:13-43
+intent-filter#action:name:android.active.intent.action.SYNC_ID
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:67:13-69:29
+action#android.active.intent.action.SYNC_ID
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:68:17-79
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:68:25-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:74:5-67
+	android:name
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml:74:22-64
+uses-sdk
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/johnsmac/Documents/demo_optional/Big_project/android/EdmDemo/app/src/main/AndroidManifest.xml

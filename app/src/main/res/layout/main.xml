@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip">
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/activity_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <!-- ENABLE DEVICE ADMINISTRATOR CHECKBOX START -->
+                <TableRow>
+
+                    <CheckBox
+                        android:id="@+id/enable_disable_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enable_disable_default" />
+                </TableRow>
+                <!-- ENABLE DEVICE ADMINISTRATOR CHECKBOX START -->
+                <!-- WIPE & FORCE LOCK RELATED UI START -->
+                <TableRow>
+
+                    <View
+                        android:layout_height="3dip"
+                        android:layout_span="2"
+                        android:background="#FF909090" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:text="@string/device_settings"
+                        android:textSize="9pt" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/wipe_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_span="2"
+                        android:text="@string/wipe_data"></Button>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+                <!-- WIPE & FORCE LOCK RELATED UI END -->
+                <!-- EMAIL ACTIVE SYNC RELATED UI START-->
+                <TableRow>
+                    <!-- spacer -->
+                    <View
+                        android:layout_height="3dip"
+                        android:layout_span="2"
+                        android:background="#FF909090" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:text="@string/email_active_sync_settings"
+                        android:textSize="9pt" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/email_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/email_add"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/eas_email_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/eas_email_delete"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/get_active_syncid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/get_active_syncid"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+                <!-- EMAIL  ACTIVE SYNC RELATED UI END -->
+                <!-- VPN RELATED UI START -->
+                <TableRow>
+                    <!-- spacer -->
+                    <View
+                        android:layout_height="3dip"
+                        android:layout_span="2"
+                        android:background="#FF909090" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:text="@string/vpn_settings"
+                        android:textSize="9pt" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/eas_vpn_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/eas_vpn_add"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/eas_vpn_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/eas_vpn_delete"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/get_vpn_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/get_vpn_id"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+                <!-- VPN RELATED UI END -->
+                <!-- CERT. START -->
+                <TableRow>
+                    <!-- spacer -->
+                    <View
+                        android:layout_height="3dip"
+                        android:layout_span="2"
+                        android:background="#FF909090" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:text="@string/cert_settings"
+                        android:textSize="9pt" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/cert_inst"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/cert_inst"></Button>
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_height="30dip"
+                        android:layout_span="2" />
+                </TableRow>
+                <!-- CERT. END -->
+            </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
